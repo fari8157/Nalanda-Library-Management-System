@@ -9,7 +9,7 @@ const authRoutes = require("./routes/authRoutes");
 const bookRoutes = require("./routes/bookRoutes");
 const reportRoutes = require("./routes/reportRoutes");
 const borrowRoutes = require("./routes/borrowRoutes");
-const job = require("./config/job");
+const job = require("./config/work");
 job.start();
 
 connectDB()
