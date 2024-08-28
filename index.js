@@ -9,7 +9,8 @@ const authRoutes = require("./routes/authRoutes");
 const bookRoutes = require("./routes/bookRoutes");
 const reportRoutes = require("./routes/reportRoutes");
 const borrowRoutes = require("./routes/borrowRoutes");
-
+const job = require("./config/job");
+job.start();
 
 connectDB()
 app.use(bodyParser.urlencoded({ extended: true }));
