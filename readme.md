@@ -70,3 +70,6 @@ The Nalanda Library Management System is a backend solution designed to streamli
    ```
    The application will be accessible at [http://localhost:5000](http://localhost:5000).
 
+   📄 API Documentation
+
+   For detailed API documentation, please refer to [this document](https://docs.google.com/document/d/18qAQbFdQB1pT45MBxVZKtpWLQruz-CTbI7RpMDGeJLY/edit?usp=sharing).
