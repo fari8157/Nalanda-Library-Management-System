@@ -2,7 +2,7 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
 
-const connectDB = (req, res) => {
+const connectDB = () => {
   mongoose
     .connect(process.env.MONGO_URL)
     .then(() => {
